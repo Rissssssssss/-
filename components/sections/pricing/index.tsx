@@ -27,7 +27,7 @@ const Pricing = (props: Props) => {
           </div>
         </div>
 
-        <Heading tag="Get started with Brainwave" title="Pay once, use forever" />
+        <Heading tag="Start Learning Today with Acadeo" title="Simple Plans, Big Results" />
 
         <div className="relative">
           <PricingList />
@@ -40,7 +40,7 @@ const Pricing = (props: Props) => {
             className="border-b font-code text-xs font-bold uppercase tracking-wider"
             href="#pricing"
           >
-            See the full details
+            Podcast creation incurs extra fees
           </Link>
         </div>
       </div>

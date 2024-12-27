@@ -15,7 +15,7 @@ const Benefits = (props: Props) => {
       <div className="container relative z-2">
         <Heading
           className="md:max-w-md lg:max-w-2xl"
-          title="Chat Smarter, Not Harder with Brainwave"
+          title="Smarter Study Made Easy with Acadeo"
         />
 
         <div className="mb-10 flex flex-wrap gap-10">
@@ -33,7 +33,7 @@ const Benefits = (props: Props) => {
                 <div className="mt-auto flex items-center">
                   <Image src={item.iconUrl} width={48} height={48} alt={item.title} />
                   <p className="ml-auto font-code text-xs font-bold uppercase tracking-wider text-n-1">
-                    Explore more
+                    Try it Free
                   </p>
                   <Arrow />
                 </div>

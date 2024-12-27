@@ -20,7 +20,9 @@ const PricingList = (props: Props) => {
             {item.price && (
               <>
                 <span className="h3">$</span>
-                <span className="text-[5.5rem] font-bold leading-none">{item.price}</span>
+                <div className="text-[5.5rem] font-bold leading-none">
+                  {item.price} <span className="text-sm font-normal text-n-4">/month</span>
+                </div>
               </>
             )}
           </div>
